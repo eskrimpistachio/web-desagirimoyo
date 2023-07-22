@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <>
       <div className="bg-landingbg h-[90vh] bg-cover">
-        <div className="flex flex-col md:w-1/2 px-8 gap-8 md:gap-12 py-10">
+        <div className="flex flex-col md:w-1/2 px-8 gap-16 md:gap-12 py-10">
           <h1 className="text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl font-bold">
             Selamat datang di Desa Girimoyo!
           </h1>
