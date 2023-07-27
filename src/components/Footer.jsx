@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-0 md:gap-16">
           <h4 className="font-semibold text-lg">Tautan Terkait</h4>
-          <div>
+          <div className="flex flex-col">
             <a href="https://karangploso.malangkab.go.id/">Kecamatan Karangploso</a>
             <a href="https://www.malangkab.go.id/mlg/">Kabupaten Malang</a>
           </div>

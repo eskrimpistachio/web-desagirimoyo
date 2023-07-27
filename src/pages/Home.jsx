@@ -52,7 +52,8 @@ const Home = () => {
             <a
               className="underline decoration-2"
               href="https://goo.gl/maps/juRMQrQyqJk3p5RbA"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Lihat detail melalui Google Maps
             </a>
@@ -146,28 +147,33 @@ const Home = () => {
       <div className="flex flex-col text-black my-32 px-8 gap-8">
         <h1 className="text-3xl md:text-5xl font-semibold">APB-Desa</h1>
         <div>
-          <ol>
-            <li>
-              a. Jumlah anggaran belanja dan penerimaan Desa / Kelurahan tahun
-              ini : Rp. 2.057.600.000
-            </li>
-            <li>
-              <div>
-                <li>b. Sumber anggaran :</li>
-                <ol className="ml-5">
-                  <li>     i.     APBD Kabupaten / Kota : Rp. 0,00</li>
-                  <li>     ii.    Bantuan Pemerintah Kabupaten / Kota : Rp. 0,00</li>
-                  <li>     iii.   Bantuan Pemerintah Provinsi : Rp. 0,00</li>
-                  <li>     iv.   Bantuan Pemerintah Pusat : Rp. 865,273,000.00</li>
-                  <li>     v.    Pendapatan Asli Desa : Rp. 275,275,000.00</li>
-                  <li>     vi.   Alokasi Dana Desa : Rp. 599,277,000.00</li>
-                  <li>     vii.  Sumber Pendapatan dari Perusahaan yang ada di desa / kelurahan : Rp. 0,00</li>
-                  <li>     viii. Sumber Pendapatan lain yang sah dan tidak mengikat : Rp. 317,275,000.00</li>
-                  <li>     ix.   Jumlah Belanja Publik : Rp. 548,677,600.00</li>
-                  <li>     x.    Jumlah Belanja Pegawai : Rp. 1,186,465,583.00</li>
-                </ol>
-              </div>
-            </li>
+          <p className='mb-4 font-semibold'>
+            Anggaran Pendapatan dan Belanja Desa Girimoyo Tahun Anggaran 2023
+            sebagai berikut :
+          </p>
+          <ol className='flex flex-col gap-4'>
+            <div>
+              <li>1. PENDAPATAN DESA</li>
+              <ol className="ml-5">
+                <li>a. Pendapatan Asli Desa : Rp. 317,275,000.00</li>
+                <li>b. Pendapatan Transfer : Rp. 1,594,485,000.00</li>
+                <li>c. Lain-lain Pendapatan : Rp. 229,017,533.48</li>
+                <li className='font-bold'>Jumlah Pendapatan : Rp. 2,140,777,533.48</li>
+              </ol>
+            </div>
+            <div>
+              <li>2. BELANJA DESA</li>
+              <ol className="ml-5">
+                <li>
+                  a. Bidang Penyelengaraan Pemerintahan Desa : Rp.
+                  1,212,535,583.48
+                </li>
+                <li>b. Bidang Pelaksanaan Pembangunan : Rp. 548,677,600.00</li>
+                <li>c. Bidang Pembinaan Kemasyarakatan : Rp. 123,655,000.00</li>
+                <li>d. Bidang Pemberdayaan Masyarakat : Rp. 197,523,700.00</li>
+                <li>e. Bidang Tak Terduga : Rp. 238,715,960.00</li>
+              </ol>
+            </div>
           </ol>
         </div>
       </div>
