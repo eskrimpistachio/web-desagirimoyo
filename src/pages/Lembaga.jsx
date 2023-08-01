@@ -4,7 +4,7 @@ const Lembaga = () => {
       <h1 className="text-2xl md:text-4xl xl:text-5xl 2xl:text-6xl font-bold text-center">
         Lembaga Desa
       </h1>
-      <table class="text-center my-8 md:my-16 mx-10 table-auto border-collapse border border-slate-500 text-sm md:text-base">
+      <table className="text-center my-8 md:my-16 mx-10 table-auto border-collapse border border-slate-500 text-sm md:text-base">
         <thead>
           <tr>
             <th className="border border-slate-600" scope="col">Nama Lembaga</th>

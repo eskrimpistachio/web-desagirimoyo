@@ -112,7 +112,7 @@ const Home = () => {
                 <ol className="ml-5">
                   <li>i. Sebelah Utara : Desa Bocek</li>
                   <li>ii. Sebelah Selatan : Desa Pendem</li>
-                  <li>iii. Sebelah Timur : Desa Ngijo</li>
+                  <li>iii. Sebelah Timur : Desa Ngijo, Desa Ngenep dan Desa Ampel Gentong</li>
                   <li>iv. Sebelah Barat : Desa Donowarih</li>
                 </ol>
               </div>
